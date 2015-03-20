@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* DOCUMENT INFORMATION
+    - Document:     Main Styles [IE Tweaks]
+    - Version:      1.0.0
+    - Client:       HP ISS IST
+    - Author:       James M Irvine
+  
+   CSS DIRECTORY
+    1. ~GLOBAL SETTINGS~
+    2. ~LAYOUT CLASSES~
+    3. ~STRUCTURE CLASSES~
+    4. ~FORM CLASSES~
+    5. ~TEXT-RELATED TREATMENTS~
+    6. ~MISCELLANEOUS~
+    
+   SWATCH COLORS
+    - #0096d6: HP Blue
+    - #c1dad7: Light Grey Blue
+    - #4f6b72: Dark Grey Blue
+    - #ffffff: Pure White
+    - #f1f1f1: Off White
+    - #dcdcdc: Light Grey
+    - #333333: Lighter Black
+    - #000000: Black
+*/
+
+
+/* ~GLOBAL SETTINGS~
+   -------------------------------- */
+
+
+/* ~LAYOUT CLASSES~
+   -------------------------------- */
+
+
+/* ~STRUCTURE CLASSES~
+   -------------------------------- */
+.navbar {
+  margin: -8px 0 -1000px 30px;
+}
+
+    .navbar ul li {
+      margin-left: 3px;
+    }
+
+    .navbar a {
+      line-height: 30px;
+    }
+
+.account_info {
+  margin: -8px 30px -1000px 0;
+}
+
+    .account_info ul li {
+      margin-left: 3px;
+    }
+
+    .account_info a {
+      line-height: 30px;
+    }
+
+.tabbed-content {
+}
+
+    .tabbed-content table tr td {
+      padding: 0 10px 25px 0 !important;
+    }
+
+
+/* ~FORM CLASSES~
+   -------------------------------- */
+.button.smaller {
+}
+
+    .button.smaller:link {
+      top: -17px !important;
+    }
+
+    .button.smaller:visited {
+      top: -17px !important;
+    }
+
+    .button.smaller:active {
+      top: -16px !important;
+    }
+
+
+/* ~TEXT-RELATED TREATMENTS~
+   -------------------------------- */
+
+
+/* ~MISCELLANEOUS~
+   -------------------------------- */
+

@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/* DOCUMENT INFORMATION
+    - Document:     Index Specific Styles
+    - Version:      1.0.0
+    - Client:       HP ISS IST
+    - Author:       James M Irvine
+  
+   CSS DIRECTORY
+    1. ~GLOBAL SETTINGS~
+    2. ~LAYOUT CLASSES~
+    3. ~STRUCTURE CLASSES~
+    4. ~FORM CLASSES~
+    5. ~TEXT-RELATED TREATMENTS~
+    6. ~MISCELLANEOUS~
+    
+   SWATCH COLORS
+    - #0096d6: HP Blue
+    - #d8e9f0: Light Grey Blue
+    - #acd4e6: Dark Grey Blue
+    - #ffffff: Pure White
+    - #f1f1f1: Off White
+    - #dcdcdc: Light Grey
+    - #333333: Lighter Black
+    - #000000: Black
+*/
+
+
+/* ~GLOBAL SETTINGS~
+   -------------------------------- */
+
+
+/* ~LAYOUT CLASSES~
+   -------------------------------- */
+#content-container {
+  margin: 0 auto;
+  width: 930px;
+}
+
+
+/* ~STRUCTURE CLASSES~
+   -------------------------------- */
+ul.tripleCol  {
+  list-style: none;
+  margin-left: 15px;
+  padding: 0;
+}
+
+    ul.tripleCol li {
+      cursor: hand;
+      float: left;
+      margin: 10px;
+      text-align: center;
+      width: 280px;
+    }
+    
+    ul.tripleCol > li:nth-child(3n+1) {
+      clear: both;
+    }
+        
+    ul.tripleCol li ul {
+      list-style: none;
+      margin: -1px 0 0 -1px;
+      padding: 1px 2px 1px 1px;
+    }
+    
+    ul.tripleCol li ul li {
+      border-left: 1px solid #acd4e6;
+      border-right: 1px solid #acd4e6;
+      border-bottom: 1px solid #acd4e6;
+      margin: 0;
+      min-height: 22px;
+      padding: 1px 0;
+      position: relative;
+      text-align: left;
+      width: 100%;
+    }
+
+    ul.tripleCol div.right {
+      background: #fefefe;
+      border: 1px solid #acd4e6;
+      bottom: 2px;
+      height: 18px;
+      position: absolute;
+      right: 5px;
+      white-space: nowrap;
+      width: 26px;
+    }
+
+    ul.tripleCol div.bottom {
+      bottom: 1px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+    
+    ul.tripleCol li ul li.alt {
+      background: #d8e9f0;
+    }
+    
+    ul.tripleCol div.cart-name {
+      float: left;
+      max-width: 235px;
+      margin-left: 5px;
+    }
+    
+
+/* ~FORM CLASSES~
+   -------------------------------- */
+
+
+/* ~TEXT-RELATED TREATMENTS~
+   -------------------------------- */
+h3 {
+  background: #acd4e6;
+  border: 2px solid #acd4e6;
+  margin: 0;
+  padding: 1em;
+}
+
+a.text-color:link {
+  color:#333333;
+}
+
+a.text-color:visited {
+  color:#333333;
+}
+
+a.text-color:hover {
+  color:#333333;
+}
+
+a.text-color:active {
+  color:#333333;
+}
+
+.error {
+  border: 2px solid #ED5151 !important;
+}
+
+.warning {
+  border: 2px solid #FF9933 !important;
+}
+
+.available {
+  border: 2px solid #00CC00 !important;
+}
+
+.status-example  span{
+  background: #acd4e6;
+  border: 2px solid #acd4e6;
+  float: right;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 0 5px;
+  position: relative;
+  top: 20px;
+}
+
+
+/* ~MISCELLANEOUS~
+   -------------------------------- */
+

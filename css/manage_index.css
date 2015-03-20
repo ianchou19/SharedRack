@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* DOCUMENT INFORMATION
+    - Document:     Manage Schedule Index Specific Styles
+    - Version:      1.0.0
+    - Client:       HP ISS IST
+    - Author:       James M Irvine
+  
+   CSS DIRECTORY
+    1. ~GLOBAL SETTINGS~
+    2. ~LAYOUT CLASSES~
+    3. ~STRUCTURE CLASSES~
+    4. ~FORM CLASSES~
+    5. ~TEXT-RELATED TREATMENTS~
+    6. ~MISCELLANEOUS~
+    
+   SWATCH COLORS
+    - #0096d6: HP Blue
+    - #d8e9f0: Light Grey Blue
+    - #acd4e6: Dark Grey Blue
+    - #ffffff: Pure White
+    - #f1f1f1: Off White
+    - #dcdcdc: Light Grey
+    - #333333: Lighter Black
+    - #000000: Black
+*/
+
+
+/* ~GLOBAL SETTINGS~
+   -------------------------------- */
+
+
+/* ~LAYOUT CLASSES~
+   -------------------------------- */
+#reqs {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+
+/* ~STRUCTURE CLASSES~
+   -------------------------------- */
+.infotable {
+  margin: 0 auto;
+  width: auto;
+}
+
+    .infotable .first {
+      border-left: 1px solid #acd4e6 !important;
+    }
+    
+    .infotable td {
+      padding: 0 12px;
+    }
+
+.overlay-container {
+  background: #f0f0f0;
+    border: 14px solid #ddd;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  height: 500px;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -250px;
+  padding: 5px;
+  position: fixed;
+  top: 50%;
+  width: 300px;
+}
+
+.overlay-form-content-centered {
+  text-align: center;
+}
+
+.overlay-form-content-centered label {
+  float: left;
+  padding-left: 5px;
+}
+
+.overlay-form-content-left {
+  margin: 0 auto;
+  width: 220px
+}
+
+#overlay-container-1 {
+  height: 280px;
+  margin-top: -140px;
+}
+
+#overlay-container-2 {
+  height: 280px;
+  margin-top: -140px;
+}
+
+
+/* ~FORM CLASSES~
+   -------------------------------- */
+
+
+/* ~TEXT-RELATED TREATMENTS~
+   -------------------------------- */
+.subheading {
+  margin: 0;
+  text-align: center;
+}
+
+
+/* ~MISCELLANEOUS~
+   -------------------------------- */
+
